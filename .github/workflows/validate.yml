@@ -1,0 +1,15 @@
+name: Validate repository
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Validate files, matrices and links
+        run: python3 tools/validate_repository.py
+      - name: Test transform behavior
+        run: python3 -m unittest discover -s tests -v

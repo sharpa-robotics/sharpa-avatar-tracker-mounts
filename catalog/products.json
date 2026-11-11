@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "products": [
+    {
+      "id": "vive-tracker",
+      "name": "VIVE Tracker 3.0",
+      "source_label": "VIVE Tracker",
+      "model": "Tracker 3.0; other VIVE generations not verified",
+      "cad_status": "STEP available; fit test pending",
+      "official_url": "https://developer.vive.com/us/hardware/tracker3/",
+      "guide": "products/vive-tracker/README.md",
+      "transform": "transforms/vive-tracker/right.json",
+      "assets": [
+        "products/vive-tracker/cad/vive-mount.step"
+      ],
+      "validation_status": "unvalidated",
+      "left_transform": null
+    },
+    {
+      "id": "vive-ultimate-tracker",
+      "name": "VIVE Ultimate Tracker",
+      "source_label": "VIVE Ultimate Tracker",
+      "model": "Ultimate Tracker with its mounting base",
+      "cad_status": "Shared VIVE adapter per source document; mounting orientation must be checked",
+      "official_url": "https://github.com/ViveRoboticsSoftware/vive-ultimate-tracker-sdk",
+      "guide": "products/vive-ultimate-tracker/README.md",
+      "transform": "transforms/vive-ultimate-tracker/right.json",
+      "assets": [
+        "products/vive-tracker/cad/vive-mount.step"
+      ],
+      "validation_status": "unvalidated",
+      "left_transform": null
+    },
+    {
+      "id": "pico-controller",
+      "name": "PICO controller",
+      "source_label": "pico",
+      "model": "Exact controller generation unresolved in source",
+      "cad_status": "Left/right main-hand, robot-arm adapters and covers; fit test pending",
+      "official_url": "https://developer.picoxr.com/document/web/introduce-xr-hardware/",
+      "guide": "products/pico-controller/README.md",
+      "transform": "transforms/pico-controller/right.json",
+      "assets": [
+        "products/pico-controller/cad/pico-main-hand-adapter-left.step",
+        "products/pico-controller/cad/pico-robot-arm-adapter-left.step",
+        "products/pico-controller/cad/pico-cover-left.step",
+        "products/pico-controller/cad/pico-main-hand-adapter-right.step",
+        "products/pico-controller/cad/pico-robot-arm-adapter-right.step",
+        "products/pico-controller/cad/pico-cover-right.step"
+      ],
+      "validation_status": "unvalidated",
+      "left_transform": null
+    },
+    {
+      "id": "meta-touch-plus",
+      "name": "Meta Quest 3 / Touch Plus",
+      "source_label": "Touch plus",
+      "model": "Quest 3 Touch Plus; mounting set / handedness of fixture unresolved",
+      "cad_status": "Quest 3 fixture only; complete assembly mapping pending",
+      "official_url": "https://developers.meta.com/vr/downloads/package/oculus-controller-art/",
+      "guide": "products/meta-touch-plus/README.md",
+      "transform": "transforms/meta-touch-plus/right.json",
+      "assets": [
+        "products/meta-touch-plus/cad/quest3-fixture.step"
+      ],
+      "validation_status": "unvalidated",
+      "left_transform": null
+    },
+    {
+      "id": "meta-touch-pro",
+      "name": "Meta Quest Touch Pro",
+      "source_label": "Touch pro",
+      "model": "Touch Pro; confirm exact assembly and glove revision",
+      "cad_status": "Left/right main-hand and robot-arm adapters plus switch parts; fit test pending",
+      "official_url": "https://developers.meta.com/vr/downloads/package/oculus-controller-art/",
+      "guide": "products/meta-touch-pro/README.md",
+      "transform": "transforms/meta-touch-pro/right.json",
+      "assets": [
+        "products/meta-touch-pro/cad/touch-pro-main-hand-adapter-left.step",
+        "products/meta-touch-pro/cad/touch-pro-robot-arm-adapter-left.step",
+        "products/meta-touch-pro/cad/touch-pro-main-hand-adapter-right.step",
+        "products/meta-touch-pro/cad/touch-pro-robot-arm-adapter-right.step",
+        "products/meta-touch-pro/cad/touch-pro-switch.step",
+        "products/meta-touch-pro/cad/touch-pro-switch-stop-right.step"
+      ],
+      "validation_status": "unvalidated",
+      "left_transform": null
+    }
+  ]
+}

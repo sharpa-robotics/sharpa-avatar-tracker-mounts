@@ -1,0 +1,20 @@
+{
+  "id": "pico-controller",
+  "name": "PICO controller",
+  "source_label": "pico",
+  "model": "Exact controller generation unresolved in source",
+  "cad_status": "Left/right main-hand, robot-arm adapters and covers; fit test pending",
+  "official_url": "https://developer.picoxr.com/document/web/introduce-xr-hardware/",
+  "guide": "products/pico-controller/README.md",
+  "transform": "transforms/pico-controller/right.json",
+  "assets": [
+    "products/pico-controller/cad/pico-main-hand-adapter-left.step",
+    "products/pico-controller/cad/pico-robot-arm-adapter-left.step",
+    "products/pico-controller/cad/pico-cover-left.step",
+    "products/pico-controller/cad/pico-main-hand-adapter-right.step",
+    "products/pico-controller/cad/pico-robot-arm-adapter-right.step",
+    "products/pico-controller/cad/pico-cover-right.step"
+  ],
+  "validation_status": "unvalidated",
+  "left_transform": null
+}

@@ -1,0 +1,15 @@
+{
+  "id": "meta-touch-plus",
+  "name": "Meta Quest 3 / Touch Plus",
+  "source_label": "Touch plus",
+  "model": "Quest 3 Touch Plus; mounting set / handedness of fixture unresolved",
+  "cad_status": "Quest 3 fixture only; complete assembly mapping pending",
+  "official_url": "https://developers.meta.com/vr/downloads/package/oculus-controller-art/",
+  "guide": "products/meta-touch-plus/README.md",
+  "transform": "transforms/meta-touch-plus/right.json",
+  "assets": [
+    "products/meta-touch-plus/cad/quest3-fixture.step"
+  ],
+  "validation_status": "unvalidated",
+  "left_transform": null
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vive-tracker",
+  "name": "VIVE Tracker 3.0",
+  "source_label": "VIVE Tracker",
+  "model": "Tracker 3.0; other VIVE generations not verified",
+  "cad_status": "STEP available; fit test pending",
+  "official_url": "https://developer.vive.com/us/hardware/tracker3/",
+  "guide": "products/vive-tracker/README.md",
+  "transform": "transforms/vive-tracker/right.json",
+  "assets": [
+    "products/vive-tracker/cad/vive-mount.step"
+  ],
+  "validation_status": "unvalidated",
+  "left_transform": null
+}

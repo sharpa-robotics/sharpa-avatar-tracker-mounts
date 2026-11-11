@@ -1,0 +1,15 @@
+{
+  "id": "vive-ultimate-tracker",
+  "name": "VIVE Ultimate Tracker",
+  "source_label": "VIVE Ultimate Tracker",
+  "model": "Ultimate Tracker with its mounting base",
+  "cad_status": "Shared VIVE adapter per source document; mounting orientation must be checked",
+  "official_url": "https://github.com/ViveRoboticsSoftware/vive-ultimate-tracker-sdk",
+  "guide": "products/vive-ultimate-tracker/README.md",
+  "transform": "transforms/vive-ultimate-tracker/right.json",
+  "assets": [
+    "products/vive-tracker/cad/vive-mount.step"
+  ],
+  "validation_status": "unvalidated",
+  "left_transform": null
+}

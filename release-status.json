@@ -1,0 +1,22 @@
+{
+  "stage": "public-preview",
+  "published": true,
+  "remote_configured": true,
+  "license_approved": false,
+  "copyright_holder": null,
+  "hardware_validation_complete": false,
+  "open_items": [
+    "Confirm copyright holder, license and asset coverage",
+    "Confirm Quest 3 versus Touch Pro assembly mapping",
+    "Confirm PICO model and glove hardware revision",
+    "Confirm matrix units and runtime pose reference",
+    "Complete print, retention and pose tests; document left-hand support",
+    "Approve public installation images and inspect STEP metadata"
+  ],
+  "model_formats": [
+    "STEP"
+  ],
+  "repository_url": "https://github.com/sharpa-robotics/sharpa-avatar-tracker-mounts",
+  "visibility": "public",
+  "owner": "sharpa-robotics"
+}

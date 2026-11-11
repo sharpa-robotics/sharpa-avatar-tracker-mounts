@@ -1,0 +1,20 @@
+{
+  "id": "meta-touch-pro",
+  "name": "Meta Quest Touch Pro",
+  "source_label": "Touch pro",
+  "model": "Touch Pro; confirm exact assembly and glove revision",
+  "cad_status": "Left/right main-hand and robot-arm adapters plus switch parts; fit test pending",
+  "official_url": "https://developers.meta.com/vr/downloads/package/oculus-controller-art/",
+  "guide": "products/meta-touch-pro/README.md",
+  "transform": "transforms/meta-touch-pro/right.json",
+  "assets": [
+    "products/meta-touch-pro/cad/touch-pro-main-hand-adapter-left.step",
+    "products/meta-touch-pro/cad/touch-pro-robot-arm-adapter-left.step",
+    "products/meta-touch-pro/cad/touch-pro-main-hand-adapter-right.step",
+    "products/meta-touch-pro/cad/touch-pro-robot-arm-adapter-right.step",
+    "products/meta-touch-pro/cad/touch-pro-switch.step",
+    "products/meta-touch-pro/cad/touch-pro-switch-stop-right.step"
+  ],
+  "validation_status": "unvalidated",
+  "left_transform": null
+}

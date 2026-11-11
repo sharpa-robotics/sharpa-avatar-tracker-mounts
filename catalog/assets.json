@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "path": "products/vive-tracker/cad/vive-mount.step",
+      "product": "vive-tracker",
+      "part": "Tracker adapter",
+      "side": "shared",
+      "format": "STEP",
+      "bytes": 377208,
+      "sha256": "005ed1ffe0c30959a866b3150eff25dee2d52c58e6ab92e6075c1d4f6caa2685",
+      "validation": "step-envelope-and-mm-unit-checked",
+      "geometry_validation": "not_performed",
+      "license_status": "pending_owner_review"
+    },
+    {
+      "path": "products/meta-touch-plus/cad/quest3-fixture.step",
+      "product": "meta-touch-plus",
+      "part": "Quest 3 fixture",
+      "side": "unspecified",
+      "format": "STEP",
+      "bytes": 311767,
+      "sha256": "167f0b443e7d10ed072a356fdab47203d44159cbb2715333bb957ebf85986944",
+      "validation": "step-envelope-and-mm-unit-checked",
+      "geometry_validation": "not_performed",
+      "license_status": "pending_owner_review"
+    },
+    {
+      "path": "products/pico-controller/cad/pico-main-hand-adapter-left.step",
+      "product": "pico-controller",
+      "part": "Main-hand adapter",
+      "side": "left",
+      "format": "STEP",
+      "bytes": 1560432,
+      "sha256": "979a4e7b121277c3b5dc732626fac035de435e0093c53ad1f041f075d64893c0",
+      "validation": "step-envelope-and-mm-unit-checked",
+      "geometry_validation": "not_performed",
+      "license_status": "pending_owner_review"
+    },
+    {
+      "path": "products/pico-controller/cad/pico-robot-arm-adapter-left.step",
+      "product": "pico-controller",
+      "part": "Robot-arm adapter",
+      "side": "left",
+      "format": "STEP",
+      "bytes": 1319720,
+      "sha256": "ad4e71dec83066b1faa1c447b95b5558924528dae6e2c9d87a2a21e109f1a926",
+      "validation": "step-envelope-and-mm-unit-checked",
+      "geometry_validation": "not_performed",
+      "license_status": "pending_owner_review"
+    },
+    {
+      "path": "products/pico-controller/cad/pico-cover-left.step",
+      "product": "pico-controller",
+      "part": "Cover",
+      "side": "left",
+      "format": "STEP",
+      "bytes": 1588461,
+      "sha256": "53a7e6f93b4496b72af25e6ff715b1a385eaf5d37e3e3ecb979be37bed21831d",
+      "validation": "step-envelope-and-mm-unit-checked",
+      "geometry_validation": "not_performed",
+      "license_status": "pending_owner_review"
+    },
+    {
+      "path": "products/pico-controller/cad/pico-main-hand-adapter-right.step",
+      "product": "pico-controller",
+      "part": "Main-hand adapter",
+      "side": "right",
+      "format": "STEP",
+      "bytes": 1635724,
+      "sha256": "236790f03ac7e3cb7a9db80445344805242fdc82a5012230afcde9ee6c2154bf",
+      "validation": "step-envelope-and-mm-unit-checked",
+      "geometry_validation": "not_performed",
+      "license_status": "pending_owner_review"
+    },
+    {
+      "path": "products/pico-controller/cad/pico-robot-arm-adapter-right.step",
+      "product": "pico-controller",
+      "part": "Robot-arm adapter",
+      "side": "right",
+      "format": "STEP",
+      "bytes": 1379400,
+      "sha256": "56dbf34c2b8f170fb7087d324731c826c720073b54f2df66ebdd280638a564eb",
+      "validation": "step-envelope-and-mm-unit-checked",
+      "geometry_validation": "not_performed",
+      "license_status": "pending_owner_review"
+    },
+    {
+      "path": "products/pico-controller/cad/pico-cover-right.step",
+      "product": "pico-controller",
+      "part": "Cover",
+      "side": "right",
+      "format": "STEP",
+      "bytes": 1656420,
+      "sha256": "b68f866d4d7ec51b5058ca742682eb57e7f45aad095ccd447474cbcbe16e48c1",
+      "validation": "step-envelope-and-mm-unit-checked",
+      "geometry_validation": "not_performed",
+      "license_status": "pending_owner_review"
+    },
+    {
+      "path": "products/meta-touch-pro/cad/touch-pro-main-hand-adapter-left.step",
+      "product": "meta-touch-pro",
+      "part": "Main-hand adapter",
+      "side": "left",
+      "format": "STEP",
+      "bytes": 4357188,
+      "sha256": "80687051bd65accc1dddd0e2702e79102bb0a6579e5a889493641661b9020a9d",
+      "validation": "step-envelope-and-mm-unit-checked",
+      "geometry_validation": "not_performed",
+      "license_status": "pending_owner_review"
+    },
+    {
+      "path": "products/meta-touch-pro/cad/touch-pro-robot-arm-adapter-left.step",
+      "product": "meta-touch-pro",
+      "part": "Robot-arm adapter",
+      "side": "left",
+      "format": "STEP",
+      "bytes": 7695785,
+      "sha256": "367ba835bd1887805c188ec87a93b76a7b5f0ffd61a12c2bb3ea6bb02b1496b7",
+      "validation": "step-envelope-and-mm-unit-checked",
+      "geometry_validation": "not_performed",
+      "license_status": "pending_owner_review"
+    },
+    {
+      "path": "products/meta-touch-pro/cad/touch-pro-main-hand-adapter-right.step",
+      "product": "meta-touch-pro",
+      "part": "Main-hand adapter",
+      "side": "right",
+      "format": "STEP",
+      "bytes": 5451861,
+      "sha256": "e855e4c2eb4aa417502e4e7eddf624460efca38e04f7c6e5bcf0672992b5ee7f",
+      "validation": "step-envelope-and-mm-unit-checked",
+      "geometry_validation": "not_performed",
+      "license_status": "pending_owner_review"
+    },
+    {
+      "path": "products/meta-touch-pro/cad/touch-pro-robot-arm-adapter-right.step",
+      "product": "meta-touch-pro",
+      "part": "Robot-arm adapter",
+      "side": "right",
+      "format": "STEP",
+      "bytes": 9692795,
+      "sha256": "d9709d6ada2bc6afce65b988feb48d84ef0ba702c5926d6b53b47765bf4ad72b",
+      "validation": "step-envelope-and-mm-unit-checked",
+      "geometry_validation": "not_performed",
+      "license_status": "pending_owner_review"
+    },
+    {
+      "path": "products/meta-touch-pro/cad/touch-pro-switch.step",
+      "product": "meta-touch-pro",
+      "part": "Switch part",
+      "side": "unspecified",
+      "format": "STEP",
+      "bytes": 270872,
+      "sha256": "981837c2da57683c838bfe880882f117cd54191b60a2b5360c727b52bc561d19",
+      "validation": "step-envelope-and-mm-unit-checked",
+      "geometry_validation": "not_performed",
+      "license_status": "pending_owner_review"
+    },
+    {
+      "path": "products/meta-touch-pro/cad/touch-pro-switch-stop-right.step",
+      "product": "meta-touch-pro",
+      "part": "Switch stop",
+      "side": "right",
+      "format": "STEP",
+      "bytes": 215669,
+      "sha256": "275034c1cbcf32f370b94ee1d45f36417ec650e31b37b8e6f28921b2688d98e1",
+      "validation": "step-envelope-and-mm-unit-checked",
+      "geometry_validation": "not_performed",
+      "license_status": "pending_owner_review"
+    }
+  ]
+}

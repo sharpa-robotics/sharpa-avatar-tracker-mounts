@@ -1,0 +1,12 @@
+LICENSE STATUS: PENDING OWNER REVIEW
+
+This public preview does not grant an open-source license.
+The project owner has requested an open-source release, but the collected
+requirements do not specify the license or legal copyright holder.
+
+A proposed MIT text is in licenses/MIT.proposed.txt for review only.
+Before an open-source license grant, the owner must approve the license and its coverage,
+identify the copyright holder, and replace this file with the final text.
+
+Third-party device models, SDKs and referenced documentation retain their
+respective owners' rights and terms. See docs/licensing.md.

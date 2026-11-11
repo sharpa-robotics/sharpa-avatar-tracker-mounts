@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "product": "vive-ultimate-tracker",
+  "side": "right",
+  "status": "unvalidated",
+  "source_frame": "vive_ultimate_tracker_right_tracker",
+  "target_frame": "right_hand_mount_frame",
+  "transform_name": "T_mount_tracker",
+  "vector_convention": "column",
+  "storage": "row-major",
+  "translation_unit": "m",
+  "matrix": [
+    [
+      -1,
+      0,
+      0,
+      -0.0206
+    ],
+    [
+      0,
+      -1,
+      0,
+      0.0
+    ],
+    [
+      0,
+      0,
+      1,
+      -0.0191
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "source_matrix": [
+    [
+      -1,
+      0,
+      0,
+      -20.6
+    ],
+    [
+      0,
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      -19.1
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "source_translation_unit_interpretation": "mm",
+  "unit_evidence": "VIVE derivation uses mm; controller units inferred from the same table and mm CAD. Confirm with calibration owner.",
+  "source": {
+    "title": "多种tracker坐标系与hand mount坐标系的转换矩阵",
+    "revision": 390,
+    "table_row": "VIVE Ultimate Tracker",
+    "retrieved": "2026-11-10"
+  },
+  "runtime_pose_reference": "Unconfirmed: do not substitute aim/grip/SDK poses without frame reconciliation.",
+  "assembly_binding": "Exact CAD revision and assembled orientation require hardware confirmation.",
+  "validation": {
+    "hardware_verified": false,
+    "left_available": false,
+    "units_confirmed_for_all_products": false
+  }
+}

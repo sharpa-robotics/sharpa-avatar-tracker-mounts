@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "product": "pico-controller",
+  "side": "right",
+  "status": "unvalidated",
+  "source_frame": "pico_controller_right_tracker",
+  "target_frame": "right_hand_mount_frame",
+  "transform_name": "T_mount_tracker",
+  "vector_convention": "column",
+  "storage": "row-major",
+  "translation_unit": "m",
+  "matrix": [
+    [
+      -0.99871,
+      0.050223,
+      0.0069817,
+      -0.0080421
+    ],
+    [
+      0.0037749,
+      0.21095,
+      -0.97749,
+      0.015278
+    ],
+    [
+      -0.050566,
+      -0.97621,
+      -0.21087,
+      -0.059188
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "source_matrix": [
+    [
+      -0.99871,
+      0.050223,
+      0.0069817,
+      -8.0421
+    ],
+    [
+      0.0037749,
+      0.21095,
+      -0.97749,
+      15.278
+    ],
+    [
+      -0.050566,
+      -0.97621,
+      -0.21087,
+      -59.188
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "source_translation_unit_interpretation": "mm",
+  "unit_evidence": "VIVE derivation uses mm; controller units inferred from the same table and mm CAD. Confirm with calibration owner.",
+  "source": {
+    "title": "多种tracker坐标系与hand mount坐标系的转换矩阵",
+    "revision": 390,
+    "table_row": "pico",
+    "retrieved": "2026-11-10"
+  },
+  "runtime_pose_reference": "Unconfirmed: do not substitute aim/grip/SDK poses without frame reconciliation.",
+  "assembly_binding": "Exact CAD revision and assembled orientation require hardware confirmation.",
+  "validation": {
+    "hardware_verified": false,
+    "left_available": false,
+    "units_confirmed_for_all_products": false
+  }
+}
